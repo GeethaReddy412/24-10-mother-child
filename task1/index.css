@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: aliceblue;
+    position:sticky;
+    top:0px;
+}
+nav{
+    display: flex;
+    display: contents;
+    align-items: center;
+}
+nav :hover{
+    background-color:rgb(227, 165, 66);
+}
+/* @media  screen and (width >565px) {
+    .icon{
+        display: none;
+    }
+} */
+@media screen and (width <565px) {
+    a{
+        display: none;
+     }
+     /* .icon{
+        display:flex;
+     }    */
+}
+.item{
+    background-color: rgb(237, 145, 7);
+}
+#check{
+    display: none;
+}
+#check:checked{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+
+}
